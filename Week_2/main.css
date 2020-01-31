@@ -8,3 +8,24 @@ body {
 h1, h2, h3, h4, h5, h6{
 text-align: center;
 }
+#content {
+    padding: 3%;
+}
+nav {
+    background-color: #df2020;
+}
+nav ul {
+    width: 115px;
+    margin-left: 30%;
+    margin: 0 auto;
+}
+nav ul li {
+    display: inline;
+}
+
+section {
+    border: 2px solid red;
+    padding: 3%;
+    width: 26%;
+    float: left;
+}
