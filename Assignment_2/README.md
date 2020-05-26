@@ -3,7 +3,9 @@ I started creating the website on 1920x1080 resolution which is my monitor. And 
 The game has blue and yellow color, but the colors also have texture to them. That is why I did not want to use the original game colors because I could not produce the same texture, so the website was not looking very good. I decided to go with the classic Black and White design because I do not think that anyone can go wrong with that design no matter the website. It is the most basic but yet good design. I did not want to pick any other colors because it would not match the original game colors.
 To conform to W3C accessibility standards I used alternative text for images. 
 I have credited the websites I have used for images on the same page in the credits bar.
+I created a short privacy policy explaining what the information will be used for.
 I tackled the problem mostly when it comes to marksman. All of the gameplay explanation could be used for other roles because they are all similar in a way. I had to think about what to write and how it is going to affect people’s gameplay and if it was going to help them get better at the game. 
 Another difficulty that I had was positioning the elements especially when it comes to designing for different devices. I had to use chrome to check my website and all of the changes that I have made to make sure it works properly. At first when I tested the website on a different screen using chrome  some of the elements like the menu bar and the champions divs were all over the place, so I had to reposition them.
  I already talked about my design choice in the paragraph above. I just took the Black and White design approach and tried to make it as appealing as possible. I think  I could have done a better job If I had more time.
 To conform to the online and distance selling act, I have not taken any measure because I am not selling anything on my website. I am giving this information out for free.
+

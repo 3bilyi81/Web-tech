@@ -44,6 +44,14 @@ ul {
         font-size: 20px;
         font-weight: bolder;
     }
+    #privacypolicy{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+        margin-top: 5%;
+    }
     #credits{
         border-width: 5px;
         border-style: solid;
