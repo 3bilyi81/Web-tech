@@ -1,0 +1,223 @@
+#header{
+    text-align: center;
+    color: aliceblue;
+    padding: 3%;
+    background-color: black;
+}
+#nav_menu {
+    text-align: center;
+    
+}
+body {
+    background-color: #3d3d3d;
+}
+a:link, a:visited, a:hover, a:active{
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+    
+}
+ul li {
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 0.7%;
+}
+ul {
+    background-color: #e3e3e3;
+}
+#contact-form {
+    
+    width: 320px;
+    margin: 0 auto;
+    }
+   
+#contact-form legend {
+        text-align: center;
+        border: 1px dotted #96a060;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #credits{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: left;
+    margin-top: 50%;
+    width: 80%;
+    margin-left: 9%;
+    }
+    #wrapper{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+    }
+    #contacts{
+        margin-left: 33%;
+        height: 10%;
+        width: 30%;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+    }
+    #champion1{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+        height: 400px;
+        width: 40%;
+        float: right;
+        margin-top: 1%;
+        margin-right: 6%;
+    }
+    #champion2{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+        height: 400px;
+        width: 40%;
+        float: left;
+        margin-top: 1%;
+        margin-left: 6%;
+    }
+    #champion3{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+        height: 400px;
+        width: 40%;
+        float: right;
+        margin-top: 2%;
+        margin-right: 6%;
+    }
+    #champion4{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+        height: 400px;
+        width: 40%;
+        float: left;
+        margin-top: 2%;
+        margin-left: 6%;
+    }
+    .image{
+        float: left;
+    }
+    #FAQ{
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        background-color: #e3e3e3;
+        text-align: center;
+
+
+        @media (max-width : 768px){
+            ul li {
+                list-style-type: none;
+                display: inline-block;
+                margin-left: 0;
+                margin-right: 0;
+                background-color: black;
+                height: 20px;
+                width: 80px;
+                text-align: center;
+                padding-top: 0%;
+            }
+            #champion4 {
+                border-width: 5px;
+                border-style: solid;
+                border-color: black;
+                background-color: #e3e3e3;
+                text-align: center;
+                height: 950px;
+                width: 30%;
+                float: left;
+                margin-top: 2%;
+                margin-left: 6%;
+            }
+            #champion1 {
+                border-width: 5px;
+                border-style: solid;
+                border-color: black;
+                background-color: #e3e3e3;
+                text-align: center;
+                height: 950px;
+                width: 30%;
+                float: left;
+                margin-top: 2%;
+                margin-left: 6%;
+            }
+        
+        #champion2 {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            background-color: #e3e3e3;
+            text-align: center;
+            height: 950px;
+            width: 30%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 6%;
+        }
+        
+        #champion3 {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            background-color: #e3e3e3;
+            text-align: center;
+            height: 950px;
+            width: 30%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 6%;
+        }
+        
+        #credits {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            background-color: #e3e3e3;
+            text-align: center;
+            margin-top: 500%;
+            width: 80%;
+            margin-left: 9%;
+            word-wrap: break-word;
+        }
+        #contacts {
+            margin-left: 4%;
+            height: 10%;
+            width: 90%;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            background-color: #e3e3e3;
+            text-align: center;
+            word-wrap: break-word;
+        }
+        }
+        
+
+        
+     
+        

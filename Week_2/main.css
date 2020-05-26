@@ -12,7 +12,7 @@ text-align: center;
     padding: 3%;
 }
 nav {
-    background-color: #df2020;
+    
 }
 nav ul {
     width: 115px;
@@ -21,11 +21,30 @@ nav ul {
 }
 nav ul li {
     display: inline;
+    color: grey;
+    
 }
 
 section {
-    border: 2px solid red;
+    box-shadow: 0 20px 6px -6px black;
     padding: 3%;
     width: 26%;
     float: left;
+}
+#Greeting {
+float: left;
+color: red;
+}#Foody {
+float: left;
+margin-left: 3%;
+color: red;
+}
+#Download {
+background-color: green;
+color: white;
+border-radius: 25px;
+}
+.Second {
+    width:300px;
+height:77px;
 }

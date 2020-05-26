@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="chatOutput">
+
+    </div>
+    <p> <input type="text" id="nameInput" value="joe"></p>
+    <p> <textarea id="messageInput" cols="30" rows="10"></textarea></p>
+    <button onclick="handleClick()"> Send </button>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAmAj6HamQsp25ZZAl5YaD6v9TWrfhic1I",
+    authDomain: "web-dev-chat-9fa8b.firebaseapp.com",
+    databaseURL: "https://web-dev-chat-9fa8b.firebaseio.com",
+    projectId: "web-dev-chat-9fa8b",
+    storageBucket: "web-dev-chat-9fa8b.appspot.com",
+    messagingSenderId: "587712496152",
+    appId: "1:587712496152:web:59dd5bd3182bd7e048396d",
+    measurementId: "G-LRY65QW6YQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firesotre();
+ 
+</script>
+<script>
+    var chatOutput = document.getElementById('chatOutput');
+db.collection('messages').onSnapshot(function(docs){
+    var messages = ""
+    docs.forEach(function(doc){
+        console.log(doc.data())
+        messages = message + "<p>" + "name:" + doc.data().name + ":" + doc.data().name
+    })
+});
+
+function handleClick(){
+db.collection('messages').add({
+name: document.getElementById("nameInput").value,
+message: document.getElementById("messageInput").value,
+time: Date()
+})
+.then(function(doc){
+    console.log(doc)
+})
+.catch(function(err){
+console.log(err)
+});
+
+console.log('run')
+
+}
+</script>
+</body>
+</html>

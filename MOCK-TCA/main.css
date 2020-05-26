@@ -1,0 +1,67 @@
+#header {
+    background-color:	#999999;
+    text-align: center;
+}
+#mainSection {
+    background-color:	#999999;
+}
+#footer {
+    background-color:	#999999;
+}
+
+#background, #aboutMe {
+    background-color: 	#d9d9d9;
+    float: left;
+    width: 50%;
+}
+#table, th, td {
+    border-collapse: collapse;
+    border: 5px solid black;
+    background-color: white;
+    width: 20%;
+    
+}
+#table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+h1, h3{
+text-align: center;
+display: block;
+}
+
+body {
+    font-family: Arial;
+}
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+li a {
+    display: block;
+    text-align: center;
+  padding: 14px 16px;
+}
+li {
+    display: inline-block;
+    
+}
+#wrapper {
+    width: 920px;
+  margin: auto;
+}
+
+
+#email {
+    margin-left: -0.5%;
+    width: 120%;
+}
+textarea{
+    margin-left: 14%;
+    width: 60%;
+}
+
+

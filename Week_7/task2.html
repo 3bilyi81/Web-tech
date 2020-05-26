@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result">
+
+
+    </div>
+
+       <input type="text" id="nameInput" value="Joe">
+       <input type="text" id="ageInput" value="18 again">
+       <input type="text" id="locationInput" value="Brighton">
+       <button onclick="handleClick()"> Send </button>
+
+       <script>
+       
+function handleClick() {
+    var ageVal, nameVal, locationVal;
+
+    ageVal = document.getElementById("ageInput").value;
+    nameVal = document.getElementById("nameInput").value;
+    locationVal = document.getElementById("locationInput").value;
+    document.getElementById("result").innerHTML = "age:" + ageVal + " name:" + nameVal + " Location:" + locationVal;
+    debugger;
+
+
+
+}
+       </script>
+
+</body>
+</html>

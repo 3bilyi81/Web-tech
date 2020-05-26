@@ -1,0 +1,23 @@
+body {
+    font-family: serif;
+}
+h1 {
+    text-align: center;
+}
+#survey-form {
+width: 320px;
+margin: 0 auto;
+}
+#survey-form fieldset {
+    
+}
+#survey-form legend {
+    text-align: center;
+    border: 1px dotted #96a060;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#survey-form input[type="text"], input[type="tel"], input[type="email"], select{
+
+}
+
